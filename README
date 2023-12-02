@@ -1,0 +1,27 @@
+**Rock vs. Mine Detection**
+
+# Overview
+
+This project focuses on using machine learning, specifically Logistic Regression, to differentiate between rocks and mines based on sonar data. It involves training a model to classify objects detected by sonar as either a rock or a mine.
+
+# Description
+
+The project employs a Logistic Regression model to classify objects detected via sonar into two categories: rocks or mines. It utilizes a dataset containing features derived from sonar readings to train the model. The trained model predicts whether an input data instance represents a rock or a mine.
+
+# Features
+
+* Utilizes sonar data for object classification
+* Implements Logistic Regression for model training and prediction
+* Provides accuracy evaluation on both training and testing datasets
+
+# Usage
+
+* Library Installation: Ensure Python, NumPy, Pandas, and Scikit-learn are installed.
+* Dataset Loading: Place the sonar data CSV file in the specified directory.
+* Execution: Run the provided Python script (Rock_Vs_Mine_Prediction.py) in your Python environment or IDE.
+* Results: The model will be trained and tested, providing accuracy scores for both training and testing datasets. Additionally, it will predict whether the given input data represents a rock or a mine.
+
+# Notes
+
+* The dataset should contain features extracted from sonar readings along with labels specifying rocks or mines.
+* Ensure the input data for prediction has the same format and number of features as the training data.
